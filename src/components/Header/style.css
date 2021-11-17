@@ -1,0 +1,15 @@
+#nav-dropdown-dark-example{
+    color: white;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+.navbar {
+z-index: 1;
+}
+
+.nav{
+  
+}
