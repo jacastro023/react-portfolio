@@ -5,10 +5,29 @@ import Wrapper from "./components/Wrapper";
 import Home from "./pages/home.js";
 import Contact from "./pages/contact.js";
 import Projects from "./pages/projects.js";
+import BarLoader from "react-spinners/BarLoader";
+import React, {useState, useEffect} from "react";
+import "./App.css";
 
 function App() {
+ 
+  const [loading, setLoading] = useState(false)
+
+  useEffect(()=>{
+     setLoading(true);
+     setTimeout(()=> {
+       setLoading(false);
+      }, 2000);
+  }, []);
+
   return (
       <div>
+        {loading ? (
+          <div className="App">
+          <BarLoader color={"#010101"} loading={loading}  size={150} />
+          </div>
+        ) : (
+          <div>
         <Header />
         <Wrapper>
         <Routes>
@@ -19,6 +38,8 @@ function App() {
         </Routes>
         </Wrapper>
         <Footer />
+        </div>
+        )}
       </div>
   )};
 

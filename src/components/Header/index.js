@@ -9,10 +9,11 @@ function Header() {
   return (
     <Navbar bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand href="/">JOSE CASTRO</Navbar.Brand>
+    <Navbar.Brand href="/">JOSE C</Navbar.Brand>
     <Nav>
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/projects">Projects</Nav.Link>
+      <Nav.Link href="/">Resume</Nav.Link>
       <Nav.Link href="/contact">Contact</Nav.Link>
     </Nav>
     </Container>
