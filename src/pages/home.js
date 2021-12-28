@@ -10,7 +10,7 @@ function Home() {
                     <div className="scale-in-center" id="welcome"> 
                     <AboutMe></AboutMe>
             </div>
-<Particles id="particles-js"
+<Particles id="particles-js1"
         params={{
           fpsLimit: 60,
           particles: {

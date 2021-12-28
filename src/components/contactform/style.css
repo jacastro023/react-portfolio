@@ -21,14 +21,13 @@ text-shadow: 0px 1px 3px rgba(0,0,0,0.6);
 }
 
 .contactform{
-      background: blue;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      position: absolute;
       align-items: center;
+      padding-left: 180px;
       height: 90vh;
-      background-image: url("https://media.kidadl.com/60121f5f107018646b4b4b08_we_have_all_the_beautiful_waterfall_quotes_c66afe1a97.jpeg");
-      background-size: cover; 
     }
 
   #contact-container{

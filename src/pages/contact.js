@@ -7,7 +7,7 @@ function contact() {
   return (
     <div>
 <ContactForm></ContactForm>
-<Particles id="particles-js"
+<Particles id="particles-js2"
         params={{
           fpsLimit: 60,
           particles: {
