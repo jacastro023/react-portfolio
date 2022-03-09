@@ -2,6 +2,7 @@ import React from "react";
 import "../components/Background/style.css";
 import Particles from "react-tsparticles";
 import AboutMe from "../components/AboutMe/AboutMe.js"
+import Skills from "../components/skills/skills.js"
 
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
     <div>
                     <div className="scale-in-center" id="welcome"> 
                     <AboutMe></AboutMe>
+                    <Skills></Skills>
             </div>
 <Particles id="particles-js1"
         params={{

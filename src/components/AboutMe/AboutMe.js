@@ -1,7 +1,7 @@
 import React from 'react';
 import '../AboutMe/style.css';
 
-function ContactMe() {
+function AboutMe() {
   return (
     <div>
     <div className="description">
@@ -12,4 +12,4 @@ function ContactMe() {
   );
 }
 
-export default ContactMe;
+export default AboutMe;
