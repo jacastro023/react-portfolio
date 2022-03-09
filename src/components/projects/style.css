@@ -1,6 +1,3 @@
-.projectcarousel{
-
-}
 
 .projectdescription{
 color: aquamarine;
@@ -8,14 +5,12 @@ text-align-last: center;
 }
 
 .project{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 100px;
+    top: 25%;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 10;
+    z-index: 1;
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
@@ -23,14 +18,12 @@ text-align-last: center;
 }
 
 .project2{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 500px;
+    top: 75%;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 9;
+    z-index: 1;
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
@@ -38,15 +31,13 @@ text-align-last: center;
 }
 
 .project4{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 1240px;
+    top: 175%;
     padding-bottom: 50px;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 7;
+    z-index: 1;
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
@@ -54,15 +45,13 @@ text-align-last: center;
 }
 
 .project3{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 900px;
+    top: 125%;
     padding-bottom: 50px;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 8;
+    z-index: 1;
     width: 100%;
     border-radius: 15px;
     overflow: hidden;

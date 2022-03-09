@@ -13,8 +13,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    top: 20%;
+    left: 25%;
+    z-index: 1;
   }
   .scale-in-center {
     -webkit-animation: scale-in-center 1.5s cubic-bezier(0.250,
