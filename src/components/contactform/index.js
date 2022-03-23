@@ -107,7 +107,7 @@ const ContactForm = () => {
             // value={state.name}
             placeholder="Enter your full name"
             // onChange={onInputChange}
-          />
+           required/>
         </Form.Group>
         <Form.Group controlId="email">
           <Form.Label>Email</Form.Label>
@@ -127,7 +127,7 @@ const ContactForm = () => {
             // value={state.subject}
             placeholder="Enter subject"
             // onChange={onInputChange}
-          />
+           required/>
         </Form.Group>
         <Form.Group controlId="subject">
           <Form.Label>Message</Form.Label>
@@ -138,8 +138,9 @@ const ContactForm = () => {
             rows="3"
             placeholder="Enter your message"
             // onChange={onInputChange}
-          />
+           required/>
         </Form.Group>
+        <br></br>
         <Button variant="primary" type="submit">
           Submit
         </Button>

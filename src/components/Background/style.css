@@ -11,8 +11,8 @@ body {
   #welcome {
     position: absolute;
     /* display: flex; */
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     top: 20%;
     left: 25%;
     z-index: 1;

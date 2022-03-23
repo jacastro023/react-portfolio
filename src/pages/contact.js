@@ -2,6 +2,7 @@ import React from "react";
 import "../components/Background/style2.css";
 import Particles from "react-tsparticles";
 import ContactForm from "../components/contactform/index.js";
+import "../components/mediaQueries/style3.css"
 
 function contact() {
   return (

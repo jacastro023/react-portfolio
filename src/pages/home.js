@@ -3,6 +3,7 @@ import "../components/Background/style.css";
 import Particles from "react-tsparticles";
 import AboutMe from "../components/AboutMe/AboutMe.js"
 import Skills from "../components/skills/skills.js"
+import "../components/mediaQueries/style.css"
 
 
 function Home() {

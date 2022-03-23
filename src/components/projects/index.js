@@ -18,6 +18,12 @@ import P4one from "../pictures/project4/p4one.png"
 import P4two from "../pictures/project4/p4two.png"
 import P4three from "../pictures/project4/p4three.png"
 import P4four from "../pictures/project4/p4four.png"
+import P5intro from "../pictures/project5/intro.png"
+import P5one from "../pictures/project5/one.png"
+import P5two from "../pictures/project5/two.png"
+import P5three from "../pictures/project5/three.png"
+import P5four from "../pictures/project5/four.png"
+import P5five from "../pictures/project5/five.png"
 
 function Footer() {
   return (
@@ -216,6 +222,71 @@ function Footer() {
                   <img
                     className="d-block w-100"
                     src={WBS2}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="project5">
+        <Container>
+          <Row>
+            <Col sm={8} className="projectdescription"><h1>Jose's Minesweeper</h1><div>This project was made to recreate the clasic minesweeper game. Only HTML, CSS and Javascript were used. Recursive functions were used through out the game to accomplish fiding the neighboring mines and opening up the squares when clicking a save one to show multiple safe squares.</div>
+              <br />
+              <a href='https://github.com/jacastro023/Project-1-Browser-based-Game' target="_blank" rel="noreferrer">
+                <Button className="button1" variant="info">
+                  <i className="fa fa-github" aria-hidden="true"></i>
+                  GitHub</Button>
+              </a>
+              <a href='https://jacastro023.github.io/Project-1-Browser-based-Game/' target="_blank" rel="noreferrer">
+                <Button className="button2" variant="info">
+                  <i className="fa fa-globe" aria-hidden="true"></i>
+                  Website</Button>
+              </a>
+            </Col>
+            <Col sm={4} className="projectcarousel">
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={P5intro}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={P5one}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={P5two}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={P5three}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={P5four}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={P5five}
                     alt="Second slide"
                   />
                 </Carousel.Item>

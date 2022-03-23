@@ -58,12 +58,26 @@ text-align-last: center;
     display: flex;
 }
 
+.project5{
+    top: 225%;
+    padding-bottom: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+}
+
 .projectheading{
     z-index: 1;
     position: absolute;
     margin-top: 20px;
     left: 50%;
-
+    color: aquamarine;
 }
 
 .button1{
