@@ -11,7 +11,7 @@ function Footer() {
     <Container className="footer" fluid={true}>
       <Row >
         <Col xl={12}>
-        Copyright © 2020-{(new Date().getFullYear())} <strong>Jose Castro</strong>
+        Copyright © 2022-{(new Date().getFullYear())} <strong>Jose Castro</strong>
         </Col>
       </Row>
     </Container>

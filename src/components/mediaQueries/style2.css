@@ -1,23 +1,23 @@
-@media screen and (max-width: 1024px) {
-
+@media screen and (max-width: 769px) {
+    .button2 {
+        margin-top: -70px;
+    }
 }
 
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 425px) {
-
-}
-
-@media screen and (max-width: 375px) {
-
-}
-
-@media screen and (max-width: 320px) {
-
-}
-
-@media screen and (min-width: 319px) {
-    
+@media screen and (max-width: 576px) {
+    .button2 {
+        margin-top: -30px;
+    }
+    .button1 {
+        margin-top: -31px;
+    }
+    .projectcarousel{
+        margin-top: 15px;
+    }
+    .project {
+        top: 15%;
+    }
+    .project2 {
+        top: 70%;
+    }
 }
