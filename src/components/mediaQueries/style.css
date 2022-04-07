@@ -57,8 +57,8 @@
         left: 15%;
       }
       #particles-js1 {
-        height: 105vh;
-    }
+        height: 93vh;
+      }
 }
 
 @media screen and (max-width: 580px) {
@@ -69,16 +69,19 @@
         left: 15%;
       }
       #particles-js1 {
-        height: 115vh;
+        height: 84vh;
     }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 451px) {
     .description{
-        width: 300px;
+        width: 315px;
         text-align: left;
     }
+    #welcome {
+        left: 5%;
+      }
     #particles-js1 {
-        height: 93vh;
+        height: 84vh;
     }
 }

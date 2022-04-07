@@ -1,23 +1,93 @@
+@media screen and (max-width: 1350px) {
+    #particles-js {
+        height: 2187px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #particles-js {
+        height: 2200px;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .project2 {
+        top: 83%;
+    }
+    .project3 {
+        top: 137%;
+    }
+    .project4 {
+        top: 177%;
+    }
+    .project5 {
+        top: 220%;
+    }
+}
+
+
 @media screen and (max-width: 769px) {
+    .projectdescription {
+        width: 60%;
+    }
+    .projectcarousel {
+        width: 40%;
+    }
+    .project {
+        top: 20%;
+    }
+    .project2 {
+        top: 97%;
+    }
+    .project3 {
+        top: 165%;
+    }
+    .project4 {
+        top: 209%;
+    }
+    .project5 {
+        top: 251%;
+    }
+    #particles-js {
+        height: 2480px;
+    }
+    .button2 {
+        margin-left: 80px;
+    }
     .button2 {
         margin-top: -70px;
     }
 }
 
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 477px) {
+    .projectdescription {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .projectcarousel {
+        width: 100%;
+    }
     .button2 {
-        margin-top: -30px;
-    }
-    .button1 {
-        margin-top: -31px;
-    }
-    .projectcarousel{
-        margin-top: 15px;
-    }
-    .project {
-        top: 15%;
+        margin-top: 21px;
     }
     .project2 {
-        top: 70%;
+        top: 115%;
+    }
+    .project3 {
+        top: 204%;
+    }
+    .project4 {
+        top: 278%;
+    }
+    .project5 {
+        top: 350%;
+    }
+    #particles-js {
+        height: 3600px;
+    }
+    .projectheading {
+        left: 40%;
     }
 }
