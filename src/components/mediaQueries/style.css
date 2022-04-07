@@ -57,7 +57,7 @@
         left: 15%;
       }
       #particles-js1 {
-        height: 93vh;
+        height: 125vh;
       }
 }
 
@@ -69,19 +69,38 @@
         left: 15%;
       }
       #particles-js1 {
-        height: 84vh;
+        height: 135vh;
     }
 }
 
 @media screen and (max-width: 451px) {
     .description{
-        width: 315px;
+        width: 360px;
         text-align: left;
     }
     #welcome {
-        left: 5%;
+        left: 9%;
       }
     #particles-js1 {
-        height: 84vh;
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .description{
+        width: 280px;
+        text-align: left;
+    }
+    #welcome {
+        left: 9%;
+      }
+    #particles-js1 {
+        height: 125vh;
+    }
+    h1 {
+        text-align: center;
+    }
+    #particles-js1 {
+        height: 165vh;
     }
 }

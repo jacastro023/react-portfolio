@@ -1,14 +1,14 @@
 #particles-js {
     background: radial-gradient(circle, rgba(193, 196, 209, 1) 0%,
     rgba(3, 3, 29, 1) 100%);
-    height: 2000px;
+    /* height: 2000px; */
   }
 
-  #particles-js2 {
+  /* #particles-js2 {
     background: radial-gradient(circle, rgba(193, 196, 209, 1) 0%,
     rgba(3, 3, 29, 1) 100%);
-    height: 89vh;
-  }
+    height: 95vh;
+  } */
 
   body {
     margin: 0;

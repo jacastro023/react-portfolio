@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/Background/style.css";
+import "../components/Background/style2.css";
 import Particles from "react-tsparticles";
 import Projects from "../components/projects/index.js"
 import "../components/mediaQueries/style2.css"
