@@ -23,8 +23,11 @@
     .project5 {
         top: 245%;
     }
+    .project6 {
+        top: 295%;
+    }
     #particles-js {
-        height: 2150px;
+        height: 2675px;
     } 
 }
 
@@ -41,8 +44,11 @@
     .project5 {
         top: 277%;
     }
+    .project6 {
+        top: 330%;
+    }
     #particles-js {
-        height: 2115px;
+        height: 2600px;
     }
 }
 
@@ -60,7 +66,7 @@
         top: 277%;
     }
     #particles-js {
-        height: 2115px;
+        height: 2500px;
     }
 }
 
@@ -87,14 +93,20 @@
     .project5 {
         top: 345%;
     }
+    .project6 {
+        top: 405%;
+    }
     #particles-js {
-        height: 2600px;
+        height: 3045px;
     }
     .button2 {
         margin-left: 80px;
     }
     .button2 {
         margin-top: -70px;
+    }
+    .projectcarousel {
+        margin-top: 50px;
     }
 }
 
@@ -110,22 +122,28 @@
         margin-top: 21px;
     }
     .project2 {
-        top: 143%;
+        top: 150%;
     }
     .project3 {
-        top: 260%;
+        top: 275%;
     }
     .project4 {
-        top: 355%;
+        top: 380%;
     }
     .project5 {
-        top: 450%;
+        top: 485%;
+    }
+    .project6 {
+        top: 590%;
     }
     #particles-js {
-        height: 3600px;
+        height: 4500px;
     }
     .projectheading {
         left: 40%;
+    }
+    .projectcarousel {
+        margin-top: 0px;
     }
 }
 
@@ -135,18 +153,24 @@
         margin-left: 180px;
     }
     .project2 {
-        top: 165%;
+        top: 150%;
     }
     .project3 {
-        top: 300%;
+        top: 270%;
     }
     .project4 {
-        top: 400%;
+        top: 365%;
     }
     .project5 {
-        top: 505%;
+        top: 465%;
+    }
+    .project6 {
+        top: 560%;
     }
     #particles-js {
-        height: 4100px;
+        height: 4290px;
+    }
+    .projectdescription {
+        margin-bottom: 0px;
     }
 }
