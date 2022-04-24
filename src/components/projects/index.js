@@ -24,6 +24,10 @@ import P5two from "../pictures/project5/two.png"
 import P5three from "../pictures/project5/three.png"
 import P5four from "../pictures/project5/four.png"
 import P5five from "../pictures/project5/five.png"
+import P6one from "../pictures/project6/home.png"
+import P6two from "../pictures/project6/new-post.png"
+import P6three from "../pictures/project6/profile.png"
+import P6four from "../pictures/project6/comment.png"
 
 function Footer() {
   return (
@@ -287,6 +291,57 @@ function Footer() {
                   <img
                     className="d-block w-100"
                     src={P5five}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="project6">
+        <Container>
+          <Row>
+            <Col sm={8} className="projectdescription"><h1>Proud Creations</h1><div>This is a full-stack application using Node/Express/MongoDB app. In this application a user can use the full CRUD method to post and share whatever the user wants and other users can like/dislike and comment on the posts. A user can also see all of the other posts every user has posted, and a user has a profile page where they can delete or edit their own posts.</div>
+              <br />
+              <a href='https://github.com/jacastro023/Project-2-seir' target="_blank" rel="noreferrer">
+                <Button className="button1" variant="info">
+                  <i className="fa fa-github" aria-hidden="true"></i>
+                  GitHub</Button>
+              </a>
+              <a href='https://proud-creations.herokuapp.com/' target="_blank" rel="noreferrer">
+                <Button className="button2" variant="info">
+                  <i className="fa fa-globe" aria-hidden="true"></i>
+                  Website</Button>
+              </a>
+            </Col>
+            <Col sm={4} className="projectcarousel">
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={P6one}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={P6two}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={P6three}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={P6four}
                     alt="Second slide"
                   />
                 </Carousel.Item>
