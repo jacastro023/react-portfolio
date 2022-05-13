@@ -1,21 +1,36 @@
-#nav-dropdown-dark-example{
-    color: white;
+#nav-dropdown-dark-example {
+  color: white;
 }
 .navbar-brand {
-    display: flex;
-    align-items: center;
-  }
-
-.navbar {
-z-index: 1;
+  display: flex;
+  align-items: center;
 }
 
-.nav2{
+.navbar {
+  z-index: 1;
+}
+
+.navbar-nav > a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  color: rgba(255, 255, 255, 0.55);
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.nav2 {
   display: none;
   width: 100%;
 }
 
 @media (max-width: 451px) {
-  .nav1{ display: none; }
-  .nav2{ display: inline-block; }
+  .nav1 {
+    display: none;
+  }
+  .nav2 {
+    display: inline-block;
+  }
 }
