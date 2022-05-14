@@ -17,12 +17,12 @@ body {
     left: 25%;
     z-index: 1;
   }
-  .scale-in-center {
+  /* .scale-in-center {
     -webkit-animation: scale-in-center 1.5s cubic-bezier(0.250,
     0.460, 0.450, 0.940) 1s both;
     animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460,
     0.450, 0.940) 1s both;
-  }
+  } */
   @-webkit-keyframes scale-in-center {
     0% {
         -webkit-transform: scale(0);

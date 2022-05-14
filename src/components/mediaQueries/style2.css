@@ -1,72 +1,78 @@
 @media screen and (min-width: 1350px) {
     #particles-js {
-        height: 2550px;
-    }
-}
-
-@media screen and (max-width: 1350px) {
-    #particles-js {
-        height: 2250px;
+        height: 2750px;
     }
 }
 
 @media screen and (max-width: 1155px) {
     .project2 {
-        top: 87%;
+        top: 80%;
     }
     .project3 {
-        top: 145%;
+        top: 130%;
     }
     .project4 {
-        top: 195%;
+        top: 175%;
     }
     .project5 {
-        top: 245%;
+        top: 220%;
     }
     .project6 {
-        top: 295%;
+        top: 263%;
+    }
+    .project7 {
+        top: 307%;
     }
     #particles-js {
-        height: 2675px;
+        height: 3000px;
     } 
 }
 
 @media screen and (max-width: 992px) {
     .project2 {
-        top: 103%;
+        top: 95%;
     }
     .project3 {
-        top: 173%;
+        top: 155%;
     }
     .project4 {
-        top: 225%;
+        top: 204%;
     }
     .project5 {
-        top: 277%;
+        top: 250%;
     }
     .project6 {
-        top: 330%;
+        top: 295%;
+    }
+    .project7 {
+        top: 340%;
     }
     #particles-js {
-        height: 2600px;
+        height: 3175px;
     }
 }
 
 @media screen and (max-width: 950px) {
     .project2 {
-        top: 103%;
+        top: 90%;
     }
     .project3 {
-        top: 173%;
+        top: 150%;
     }
     .project4 {
-        top: 225%;
+        top: 195%;
     }
     .project5 {
-        top: 277%;
+        top: 240%;
+    }
+    .project6 {
+        top: 285%;
+    }
+    .project7 {
+        top: 330%;
     }
     #particles-js {
-        height: 2500px;
+        height: 2975px;
     }
 }
 
@@ -96,8 +102,11 @@
     .project6 {
         top: 405%;
     }
+    .project7 {
+        top: 470%;
+    }
     #particles-js {
-        height: 3045px;
+        height: 3495px;
     }
     .button2 {
         margin-left: 80px;
@@ -122,22 +131,25 @@
         margin-top: 21px;
     }
     .project2 {
-        top: 150%;
+        top: 144%;
     }
     .project3 {
-        top: 275%;
+        top: 261%;
     }
     .project4 {
-        top: 380%;
+        top: 357%;
     }
     .project5 {
-        top: 485%;
+        top: 451%;
     }
     .project6 {
-        top: 590%;
+        top: 546%;
+    }
+    .project7 {
+        top: 645%;
     }
     #particles-js {
-        height: 4500px;
+        height: 4877px;
     }
     .projectheading {
         left: 40%;
@@ -153,22 +165,25 @@
         margin-left: 180px;
     }
     .project2 {
-        top: 150%;
+        top: 146%;
     }
     .project3 {
-        top: 270%;
+        top: 264%;
     }
     .project4 {
-        top: 365%;
+        top: 356%;
     }
     .project5 {
-        top: 465%;
+        top: 452%;
     }
     .project6 {
-        top: 560%;
+        top: 544%;
+    }
+    .project7 {
+        top: 643%;
     }
     #particles-js {
-        height: 4290px;
+        height: 4830px;
     }
     .projectdescription {
         margin-bottom: 0px;

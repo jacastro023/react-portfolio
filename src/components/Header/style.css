@@ -21,6 +21,17 @@
   padding-left: 0.5rem;
 }
 
+.container > a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  color: rgba(255, 255, 255, 0.55);
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
 .nav2 {
   display: none;
   width: 100%;

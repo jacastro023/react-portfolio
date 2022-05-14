@@ -11,7 +11,9 @@ function Header() {
       <div className="nav1">
         <Navbar bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand href="/">JOSE C</Navbar.Brand>
+            <Link to="/" >
+            <Navbar.Brand>JOSE C</Navbar.Brand>
+            </Link>
             <Nav>
               <Link to="/">Home</Link>
               <Link to="/projects">projects</Link>
