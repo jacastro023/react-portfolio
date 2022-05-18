@@ -58,7 +58,7 @@ const ContactForm = () => {
           </div>
           <div className="icon-text">
             <i className="fa fa-map-marker" aria-hidden="true"></i>
-            <span>4518 S ST Louis</span>
+            <span>Chicago,IL</span>
           </div>
           <div className="social-media">
             <a
