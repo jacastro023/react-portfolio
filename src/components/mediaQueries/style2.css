@@ -4,6 +4,12 @@
     }
 }
 
+@media screen and (max-width: 1350px) {
+    #particles-js {
+        height: 2750px;
+    }
+}
+
 @media screen and (max-width: 1155px) {
     .project2 {
         top: 80%;
